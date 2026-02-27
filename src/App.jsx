@@ -32,7 +32,7 @@ const PROFILE = {
   email: "adhavaachakravarthi@gmail.com", // REPLACE
   github: "https://github.com/AdhavaaChakravarthi", // REPLACE
   linkedin: "https://linkedin.com/in/adhavaa", // REPLACE
-  resume: "C:/Users/ADHAVAA CHAKRAVARTHI/Downloads/Resume_Sanofi_PMO (1).pdf", // REPLACE with actual PDF path
+  resume: "/Resume_Sanofi_PMO (1).pdf", // REPLACE with actual PDF path
 };
 
 const PROJECTS = [
