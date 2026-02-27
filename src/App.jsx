@@ -29,10 +29,10 @@ const PROFILE = {
   subtitle: "Embedded Systems · Biosignal Acquisition · Product Documentation · Research Tooling",
   positioning: "I build hardware-software systems at the intersection of sensing and biology — and I document them like they actually need to work.",
   currentlyBuilding: "wearable rehab sensing systems + real-time research visualization tooling",
-  email: "YOUR_EMAIL@example.com", // REPLACE
-  github: "https://github.com/YOUR_USERNAME", // REPLACE
-  linkedin: "https://linkedin.com/in/YOUR_PROFILE", // REPLACE
-  resume: "/Adhavaa_Resume.pdf", // REPLACE with actual PDF path
+  email: "adhavaachakravarthi@gmail.com", // REPLACE
+  github: "https://github.com/AdhavaaChakravarthi", // REPLACE
+  linkedin: "https://linkedin.com/in/adhavaa", // REPLACE
+  resume: "C:/Users/ADHAVAA CHAKRAVARTHI/Downloads/Resume_Sanofi_PMO (1).pdf", // REPLACE with actual PDF path
 };
 
 const PROJECTS = [
@@ -210,7 +210,7 @@ const SKILLS = {
 
 const EXPERIENCES = [
   {
-    period: "2023 – Present",
+    period: "May 2025– Present",
     role: "Research — Photonics / Neurostimulation Lab",
     org: "Toronto Metropolitan University",
     type: "Research",
@@ -218,7 +218,7 @@ const EXPERIENCES = [
       "Built experimental toolchains for tACS research and biological tissue characterization. Work spans circuit construction, data acquisition pipeline design, Python/MATLAB signal analysis, and experimental documentation.",
   },
   {
-    period: "2023 – Present",
+    period: "September 2025 – Present",
     role: "Biomedical Engineering Design Team",
     org: "TMU — Smart Knee Sleeve Project",
     type: "Design Team",
@@ -226,7 +226,7 @@ const EXPERIENCES = [
       "Core contributor to electrical/system integration, documentation (ICD-Lite, validation matrix), and architecture decisions for a wearable ACL rehab monitoring device entered in a biomedical design competition.",
   },
   {
-    period: "2023 – Present",
+    period: "May 2024– Present",
     role: "Marketing & Content — Curiosity Series",
     org: "CUBEC (Canadian University Biomedical Engineering Conference)",
     type: "Leadership",
@@ -653,7 +653,7 @@ export default function Portfolio() {
       {/* NAV */}
       <nav className={`nav-sticky ${navOpen ? "nav-mobile-open" : ""}`}>
         <div className="nav-inner">
-          <span className="nav-logo">{PROFILE.shortName} CV</span>
+          <span className="nav-logo">{PROFILE.shortName} Portfolio </span>
           <ul className="nav-links">
             {navLinks.map(link => (
               <li key={link.id}>
