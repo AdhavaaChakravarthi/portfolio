@@ -165,7 +165,7 @@ const SKILLS = {
   "Embedded + Hardware": {
     icon: Cpu,
     items: [
-      { tool: "ESP32, STM32, MCU integration", use: "building wearable sensor acquisition pipelines" },
+      { tool: "ESP32, MCU integration", use: "building wearable sensor acquisition pipelines" },
       { tool: "ADC design, signal conditioning", use: "front-end circuit design for EMG and bioelectric signals" },
       { tool: "BLE / wireless protocols", use: "low-power wearable data transmission architectures" },
       { tool: "Benchtop prototyping", use: "PCB-free circuit builds, measurement rigs, lab setups" },
@@ -211,11 +211,11 @@ const SKILLS = {
 const EXPERIENCES = [
   {
     period: "May 2025– Present",
-    role: "Research — Photonics / Neurostimulation Lab",
+    role: "Research — Photonics Group",
     org: "Toronto Metropolitan University",
     type: "Research",
     description:
-      "Built experimental toolchains for tACS research and biological tissue characterization. Work spans circuit construction, data acquisition pipeline design, Python/MATLAB signal analysis, and experimental documentation.",
+      "Building experimental toolchains for tACS research and biological tissue characterization. Work spans circuit construction, data acquisition pipeline design, Python/MATLAB signal analysis, and experimental documentation.",
   },
   {
     period: "September 2025 – Present",
@@ -871,7 +871,7 @@ export default function Portfolio() {
                     { label: "Program", value: "Biomedical Engineering" },
                     { label: "University", value: "Toronto Metropolitan" },
                     { label: "Focus Areas", value: "Embedded + Biosignals" },
-                    { label: "Open to", value: "Internship / Co-op 2025" },
+                    { label: "Open to", value: "Internship / Co-op 2026" },
                   ].map(({ label, value }) => (
                     <div key={label} style={{ background: "var(--surface-1)", border: "1px solid var(--border)", borderRadius: 10, padding: 16 }}>
                       <p style={{ fontSize: "0.7rem", fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.08em", color: "var(--text-muted)", marginBottom: 4 }}>{label}</p>
